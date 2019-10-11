@@ -1,0 +1,11 @@
+README
+
+Data is loaded using pandas.
+Histograms, Violin plots and Heatmaps are plotted using matplotlib
+ElasticNet model is used a basic model from sklearn. Cross validation score is calculated. For all estimators R2 square is used as the metric.
+LightGBM model is used for better accuracy from sklearn.
+Feature importances are plotted using random forest model.
+From the feature importances, columns are dropped which are less significant. 
+Grid Search is used for hypertuning.
+Best parameters are found out and the model is trained again. Final R2 score is 0.7495 
+
